@@ -9,7 +9,7 @@
     <RootNamespace>JustEnoughViTests</RootNamespace>
     <AssemblyName>JustEnoughViTests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <TestRunnerCommand>..\..\monodevelop\main\build\bin\mdtool.exe</TestRunnerCommand>
+    <TestRunnerCommand>../../../../../../Applications/Xamarin Studio.app/Contents/Resources/lib/monodevelop/bin/mdtool.exe</TestRunnerCommand>
     <TestRunnerArgs>run-md-tests</TestRunnerArgs>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -23,7 +23,7 @@
     <ConsolePause>false</ConsolePause>
     <CustomCommands>
       <CustomCommands>
-        <Command type="Execute" command="../../monodevelop/main/build/bin/mdtool.exe run-md-tests bin/Debug/JustEnoughViTests.dll" />
+        <Command type="Execute" command="&quot;../../../../../../Applications/Xamarin Studio.app/Contents/Resources/lib/monodevelop/bin/mdtool.exe&quot; run-md-tests bin/Debug/JustEnoughViTests.dll" />
       </CustomCommands>
     </CustomCommands>
   </PropertyGroup>
